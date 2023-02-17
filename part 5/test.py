@@ -31,7 +31,7 @@ class WebsiteUser(HttpUser):
             result = self.client.get("/cities")
             assert result.status_code == 200
 
-        @task(0)
+        @task(3)
         def logOut(self):
             result = self.client.post("/logout", headers={"Token": token})
             assert result.status_code == 200
