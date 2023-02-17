@@ -1,4 +1,6 @@
 
+here are some useful scripts for future use...
+
 sudo docker run --name wp-auth-container -e POSTGRES_PASSWORD=secretpassword -p 8040:5432 -d -v wp-auth-data:/var/lib/postgresql/data postgres
 
 sudo docker exec -it wp-auth-container psql -U postgres

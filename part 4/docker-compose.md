@@ -87,4 +87,8 @@ here are some api call examples in the docker compose:
 ![test2.png](./test2.png)
 ![test3.png](./test3.png)
 
+and here you can see that our ticket (port 3001) service has sent a reqiest to auth
+and returned its response:
+
+![test4.png](./test4.png)
 
