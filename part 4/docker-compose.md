@@ -13,6 +13,10 @@ version: "3.9"
 
 services:
 
+  front:
+    build: ./front
+    ports: 
+    - "9099:80"
 
   ticket-postgres:
     image: postgres:latest
