@@ -93,7 +93,7 @@
 
 <section  >
 
-<h2 dir='rtl'> بخش چهارم</h2>
+<h2 dir='rtl'> بخش سوم</h2>
 
 <p dir='rtl'>
 ما باید توی سرویس ها برای اتصال به localhost بنویسیم docker.host.internal
@@ -133,7 +133,7 @@ sudo docker run -p 3000:3000 --add-host=host.docker.internal:host-gateway -d sha
 <section>
 
 <h2 dir='rtl'>
-بخش پنجم
+بخش چهارم
 </h2>
 
 <div dir='ltr' >
