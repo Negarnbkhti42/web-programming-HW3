@@ -2,14 +2,12 @@ from locust import HttpUser, between, task
 import uuid
 import random
 
-hash_to_string = {}
-hashes = []
+token = ""
 
 
 class WebsiteUser(HttpUser):
     # host = "http://213.233.179.83"
     host = "http://localhost:3000"
-    token = None
 
     @task(1)
     def addUser(self):
